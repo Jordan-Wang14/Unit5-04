@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+  <meta charset=utf-8">
+  <meta name="description" content="daily work ">
+  <meta name="keywords" content="Unit5-03">
+  <meta name=author" content="Jordan Wang">
+  <meta name="viewport' content='width=device-width, initial-scale=1.0">
+    <title> </title>
+    </head>
+    <body>
+<p><input id="age" type="text" placeholder="Enter your age"/></p>
+<p><input id="date" type="text" placeholder="Enter what day today is"/></p>
+<p><button onclick="setGreeting()">check</button></p>
+<script>
+function setGreeting()
+{
+var greeting =document.getElementById("age").value
+var greeting1 =document.getElementById("date").value
+if ((greeting1 == "Thursday"|| greeting1 =="Tuesday")||(greeting > 12 && greeting < 21)) 
+{
+  greeting1=("You are eligible for student pricing!");
+}
+else 
+{
+  greeting1=("You must pay regular price");    
+} 
+  document.getElementById("age"||"number").value = greeting1;
+
+}
+</script>
+    </body>
+</html>
